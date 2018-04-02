@@ -2,7 +2,7 @@
 
 ## Tags
 
-> String
+> STRINGS
 
 ## Description
 
