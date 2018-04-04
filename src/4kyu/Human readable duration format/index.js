@@ -6,18 +6,19 @@ export function formatDuration(n) {
   const oneDay = oneHour * 24
   const oneYear = oneDay * 365
 
-  const years = ~~(n / oneYear)
-  const days = ~~((n % oneYear) / oneDay)
-  const hours = ~~((n % oneDay) / oneHour)
-  const minutes = ~~((n % oneHour) / oneMinute)
-  const seconds = n % oneMinute
+  const times = {
+    year: ~~(n / oneYear),
+    day: ~~((n % oneYear) / oneDay),
+    hour: ~~((n % oneDay) / oneHour),
+    minute: ~~((n % oneHour) / oneMinute),
+    second: n % oneMinute,
+  }
 
-  const strY = numToStr(years, 'year')
-  const strD = numToStr(days, 'day')
-  const strH = numToStr(hours, 'hour')
-  const strM = numToStr(minutes, 'minute')
-  const strS = numToStr(seconds, 'second')
-  const arr = (strY + strD + strH + strM + strS).trim().split(' ')
+  let str = ''
+  for (let [key, value] of Object.entries(times)) {
+    str += numToStr(times[key], key)
+  }
+  const arr = str.trim().split(' ')
 
   const res = []
   arr.forEach((x, i) => {
