@@ -2,14 +2,14 @@ export function solve(s) {
   let stack = []
   let lastSign = '+'
 
-  for (let i = 0; i < s.length; i++) {
-    if (s[i] === '(' || s[i] === ')') {
+  for (let c of s) {
+    if (c === '(' || c === ')') {
       lastSign = stack[stack.length - 1] || '+'
-    } else if (s[i] === '+') {
+    } else if (c === '+') {
       if (stack[stack.length - 1] !== '-' && stack[stack.length - 1] !== '+') {
         stack.push(lastSign)
       }
-    } else if (s[i] === '-') {
+    } else if (c === '-') {
       if (lastSign === '-') {
         if (stack[stack.length - 1] === '-') stack.pop()
         stack.push('+')
@@ -18,7 +18,7 @@ export function solve(s) {
         stack.push('-')
       }
     } else {
-      stack.push(s[i])
+      stack.push(c)
     }
   }
   return stack.join('').replace(/^\+/, '')
