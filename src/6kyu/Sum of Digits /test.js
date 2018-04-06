@@ -5,6 +5,10 @@ test('Sum of Digits / Digital Root', () => {
 })
 
 test('Sum of Digits / Digital Root', () => {
+  expect(digital_root(0)).toBe(0)
+})
+
+test('Sum of Digits / Digital Root', () => {
   expect(digital_root(7)).toBe(7)
 })
 
