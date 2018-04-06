@@ -20,3 +20,9 @@ cd codewars
 npm install
 npm run test // also you can run `npm run watch`
 ```
+
+### Recommend
+
+* [🎉 Leetcode](https://github.com/tangweikun/leetcode)
+* [✨ Javascript Design Pattern](https://github.com/tangweikun/javascript-design-pattern)
+* [🎨 Lodash With ES6](https://github.com/tangweikun/lodash-es6)
