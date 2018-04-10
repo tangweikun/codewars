@@ -1,0 +1,159 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "git.confirmSync": false,
+  "editor.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": false,
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/build": true,
+    "**/dist": true,
+    "**/.meteor": true,
+    "**/bower_components": true
+  },
+  "prettier.eslintIntegration": true,
+  "eslint.options": {
+    "arrow-parens": ["error"],
+    "no-unused-vars": "error"
+  },
+  // "html.format.wrapLineLength": 120,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.dontShowNewVersionMessage": true,
+  "typescript.check.npmIsInstalled": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
+  },
+  "atomKeymap.promptV3Features": true,
+  // "files.associations": {
+  //   "*.ejs": "html",
+  //   "*.js": "html"
+  // },
+  // "html.suggest.html5": true,
+  // "html.autoClosingTags": true,
+  "workbench.colorTheme": "Visual Studio Dark",
+  "gitlens.gitExplorer.files.layout": "auto",
+  "workbench.startupEditor": "newUntitledFile",
+  "auto-close-tag.activationOnLanguage": ["*"],
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  // "codemetrics.nodeconfiguration.ReturnStatement": 0,
+  "cSpell": {
+    "words": ["nums", "Leet", "keyframes"]
+  },
+  "todohighlight.defaultStyle": {
+    "color": "#ffffff",
+    "backgroundColor": "green",
+    "overviewRulerColor": "#ffab00",
+    // "cursor": "pointer",
+    // "border": "1px solid #eee",
+    "borderRadius": "2px",
+    "isWholeLine": false
+  },
+  "todohighlight.keywords": [
+    "render",
+    "getInitialState",
+    "getDefaultProps",
+    "componentWillMount",
+    "componentDidMount",
+    "componentWillReceiveProps",
+    "shouldComponentUpdate",
+    "componentWillUpdate",
+    "componentDidUpdate",
+    "componentWillUnmount",
+    "mapStateToProps",
+    "mapDispatchToProps",
+    "WHAT!!!",
+    "HOW!!!",
+    "WHY!!!",
+    {
+      "text": "return",
+      "color": "#ffffff",
+      "backgroundColor": "purple",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "HACK:",
+      "color": "#ffffff",
+      "backgroundColor": "#ffbd3f",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "HELP:",
+      "color": "#ffffff",
+      "backgroundColor": "red",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "TAGS",
+      "color": "#ffffff",
+      "backgroundColor": "red",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "console.log",
+      "color": "#ffffff",
+      "backgroundColor": "red",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "&&",
+      "color": "#ffffff",
+      "backgroundColor": "#ff5370",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "||",
+      "color": "#ffffff",
+      "backgroundColor": "#ff5370",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    },
+    {
+      "text": "=>",
+      "color": "#ffffff",
+      "backgroundColor": "#3a5fcd",
+      "overviewRulerColor": "grey",
+      "isWholeLine": false
+    }
+  ],
+  "bookmarks.navigateThroughAllFiles": true,
+  "bookmarks.treeview.visible": true,
+  "files.associations": {
+    "*.wpy": "vue",
+    "*.wxml": "vue-html",
+    "*.wxss": "css",
+    "*.css": "less"
+  },
+  "[html]": {},
+  "html.format.wrapLineLength": 100,
+  "gitlens.keymap": "chorded",
+  "code-runner.executorMap": {
+    "go": "go run",
+    "c":
+      "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "diffEditor.ignoreTrimWhitespace": true,
+  "cSpell.language": "en,en-GB,en-US"
+}
