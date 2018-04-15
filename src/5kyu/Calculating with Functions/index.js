@@ -1,3 +1,5 @@
+// HELP:
+
 const f = digit => op => (op ? op(digit) : digit)
 
 export const zero = f(0)
